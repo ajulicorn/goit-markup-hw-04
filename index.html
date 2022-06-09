@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
+      integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Webstudio</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <!--Header-->
+    <header class="header">
+      <div class="container page-header">
+        <nav class="header-section">
+          <a class="link header-logo" href="./index.html"><span class="web">Web</span>Studio</a>
+          <ul class="list header-list">
+            <li class="header-item">
+              <a class="navigation current link" href="index.html">Cтудия</a>
+            </li>
+            <li class="header-item">
+              <a class="navigation link" href="portfolio.html">Портфолио</a>
+            </li>
+            <li class="header-item"><a href="" class="navigation link">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="header-contact list">
+          <li class="contact-item">
+            <a class="email link" href="mailto:info@devstudio.com">
+            <svg class="envelope-icon"><use href="images/symbol-defs.svg#icon-envelope"></use></svg>info@devstudio.com</a>
+          </li>
+          <li class="contact-item">
+            <a class="phone link" href="tel:+380961111111">
+              <svg class="envelope-icon"><use href="images/symbol-defs.svg#icon-phone"></use></svg>+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero overlay">
+        <div class="container">
+          <h1 class="inside-text">Эффективные решения для вашего бизнеса</h1>
+          <button class="button" type="button">Заказать услугу</button>
+        </div>
+      </section>
+      <section class="advantages">
+        <div class="container">
+          <h2 class="visually-hidden">Преимущества</h2>
+          <ul class="advantages-list list">
+            <li class="advantages-item">
+              <div class="advantages-block"><svg class="advantages-icons"><use href="./images/symbol-defs.svg#icon-antene-1"></use></svg></div>
+              <h3 class="advantage-title">Внимание к деталям</h3>
+              <p class="advantage-text">
+                Идейные соображения, а также начало повседневной работы по формированию позиции.
+              </p>
+            </li>
+            <li class="advantages-item">
+              <div class="advantages-block"><svg class="advantages-icons"><use href="./images/symbol-defs.svg#icon-clock-1"></use></svg></div>
+              <h3 class="advantage-title">Пунктуальность</h3>
+              <p class="advantage-text">
+                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+              </p>
+            </li>
+            <li class="advantages-item">
+              <div class="advantages-block"><svg class="advantages-icons"><use href="./images/symbol-defs.svg#icon-pc"></use></svg></div>
+              <h3 class="advantage-title">Планирование</h3>
+              <p class="advantage-text">
+                Равным образом консультация с широким активом в значительной степени обуславливает.
+              </p>
+            </li>
+            <li class="advantages-item">
+              <div class="advantages-block"><svg class="advantages-icons"><use href="./images/symbol-defs.svg#icon-austronauft-1"></use></svg></div>
+              <h3 class="advantage-title">Cовременные технологии</h3>
+              <p class="advantage-text">
+                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="work">
+        <div class="container">
+          <h2 class="our_work_header">Чем мы занимаемся</h2>
+          <ul class="list photo-work">
+            <li class="photo-work-item">
+              <img src="images/box1.jpg" width="370" height="294" alt="печатает на клавиатуре" />
+            </li>
+            <li class="photo-work-item">
+              <img src="images/box2.jpg" width="370" height="294" alt="пользуется телефоном" />
+            </li>
+            <li class="photo-work-item">
+              <img src="images/box3.jpg" width="370" height="294" alt="пользуется планшетом" />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--Our team-->
+      <section class="ourteam">
+        <div class="container">
+          <h2 class="our_team_header">Наша команда</h2>
+          <ul class="list team-list">
+            <li class="team-item">
+              <img
+                src="images/demyanenko.jpg"
+                width="270"
+                height="260"
+                alt="бородатый молодой человек улыбается"
+              />
+              <div class="team-card">
+                <h3 class="employees">Игорь Демьяненко</h3>
+                <p class="position_title">Product designer</p>
+              </div>
+            </li>
+            <li class="team-item">
+              <img
+                src="images/repina.jpg"
+                width="270"
+                height="260"
+                alt="молодая девушка блондинка улыбается"
+              />
+              <div class="team-card">
+                <h3 class="employees">Ольга Репина</h3>
+                <p class="position_title">Frontend developer</p>
+              </div>
+            </li>
+            <li class="team-item">
+              <img
+                src="images/tarasov.jpg"
+                width="270"
+                height="260"
+                alt="молодой человек в голубой рубашке улыбается"
+              />
+              <div class="team-card">
+                <h3 class="employees">Николай Тарасов</h3>
+                <p class="position_title">Marketing</p>
+              </div>
+            </li>
+            <li class="team-item">
+              <img
+                src="images/ermakov.jpg"
+                width="270"
+                height="260"
+                alt="молодой бородатый человек в очках улыбается"
+              />
+              <div class="team-card">
+                <h3 class="employees">Михаил Ермаков</h3>
+                <p class="position_title">UI Designer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <a class="link logo_footer" href="./index.html"
+          ><span class="web_footer">Web</span>Studio</a
+        >
+        <address class="address">
+          <ul class="list footer-contacts">
+            <li class="footer-contacts-item">
+              <a
+                class="location link"
+                href="https://goo.gl/maps/vwGXuSgqASsSbx4F7"
+                target="_blank"
+                rel="noreferrer"
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
+            </li>
+            <li class="footer-contacts-item">
+              <a class="footer-email link" href="emailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="footer-contacts-item">
+              <a class="footer-phone link" href="tel:+380961111111"> +38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
+    </footer>
+  </body>
+</html>
