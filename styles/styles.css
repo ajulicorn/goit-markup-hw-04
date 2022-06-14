@@ -328,7 +328,92 @@ text-align: center;
 letter-spacing: 0.03em;
 color:var(--color-text);
 }
-/*Footer styles */
+
+.team-social-icons{
+width: 44px;
+height: 44px;
+margin-left:10px;
+}
+.team-social-icons:first-child{
+    margin-left: 0;
+}
+.social-link{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color:var(--color-accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #AFB1B8;
+}
+
+.employees-soc-icons{
+    fill: currentColor;
+}
+.social-link:hover,
+.social-link:focus{
+background-color: var(--color-btn-link);
+}
+
+.social-link:hover .team-social-icons
+.social-link:focus .team-social-icons{
+    fill: var(--color-accent);
+}
+
+
+.team-social{
+display: flex;
+justify-content: center;
+margin-bottom: 30px;
+}
+
+/* clients styles */
+.clients-header {
+	margin-bottom: 50px;
+	font-size: 36px;
+	line-height: 1.67;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--color-header-logo);}
+
+.clients {
+	display: flex;
+}
+
+.clients-item {
+	width: 170px;
+	height: 92px;
+}
+
+.clients-item:not(:first-child) {
+	margin-left: 30px;
+}
+
+.clients-item-link {
+	border: 1px solid #afb1b8;
+	border-radius: 4px;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.clients-item-link:hover,
+.clients-item-link:focus {
+	border: 1px solid var(--accent-color);
+}
+
+.clients-item-link:hover .client-item-ico,
+.clients-item-link:focus .client-item-ico {
+	fill: var(--color-btn-link);
+}
+
+.client-item-icon {
+	fill: #AFB1B8;}
+
+    /*Footer styles */
 .footer{
 background:var(--color-footer);
 padding-bottom: 60px;
@@ -342,6 +427,49 @@ padding-top: 60px;}
     font-size: 26px;
     line-height:1.19;
     letter-spacing: 0.03em;}
+
+    .join-header {
+        font-size: 14px;
+        line-height: 1.14x;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--color-accent);
+        margin-bottom: 20px;
+        display: flex;
+        align-items: baseline;
+    }
+    
+    .join-list {
+        display: flex;
+        align-items: baseline;
+    }
+    
+    .join-item {
+        width: 44px;
+        height: 44px;
+    }
+    
+    .join-item:not(:first-child) {
+        margin-left: 10px;
+    }
+    
+    .join-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    
+    .join-link:hover,
+    .join-link:focus {
+    background-color: var(--accent-color);
+    }
+    
+    .join-icon {
+        fill: var(--color-accent);}
 
 .web_footer{
 color: var(--color-btn-link);}
