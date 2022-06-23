@@ -358,9 +358,8 @@ background-color: var(--color-btn-link);
 
 .social-link:hover .team-social-icons
 .social-link:focus .team-social-icons{
-    fill: var(--color-accent);
+fill: #EEEEEE;
 }
-
 
 .team-social{
 display: flex;
