@@ -354,11 +354,12 @@ margin-left:10px;
 .social-link:hover,
 .social-link:focus{
 background-color: var(--color-btn-link);
+color: #EEEEEE;
 }
 
-.social-link:hover .team-social-icons
-.social-link:focus .team-social-icons{
-fill: #EEEEEE;
+.social-link:hover .team-social-icons:hover
+.social-link:focus .team-social-icons:focus{
+fill:#EEEEEE;
 }
 
 .team-social{
@@ -378,11 +379,17 @@ margin-bottom: 30px;
 
 .clients {
 	display: flex;
+  justify-content: center;
+  align-items:center;
+  margin-top: 50px;
 }
 
 .clients-item {
 	width: 170px;
 	height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .clients-item:not(:first-child) {
@@ -399,14 +406,10 @@ margin-bottom: 30px;
 	align-items: center;
 }
 
-.clients-item-link:hover,
-.clients-item-link:focus {
-	border: 1px solid var(--accent-color);
-}
-
-.clients-item-link:hover .client-item-ico,
-.clients-item-link:focus .client-item-ico {
-	fill: var(--color-btn-link);
+.client-link:hover,
+.client-link:focus{
+    color:#2196F3;
+    border: 1px solid #2196F3;
 }
 
 .client-item-icon {
