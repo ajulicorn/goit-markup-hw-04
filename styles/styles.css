@@ -168,7 +168,7 @@ align-items: center;}
   fill: currentColor;}
 
   .phone-icon{
-    Height: 12px;
+    Height: 16px;
    Width: 16px;
    margin-right: 10px;
 align-items: center;
@@ -469,7 +469,7 @@ padding-top: 60px;}
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--color-accent);
-        padding-bottom: 20px;
+        margin-bottom: 20px;
         font-weight: bold;
     }
     
