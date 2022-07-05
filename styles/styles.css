@@ -159,9 +159,9 @@ align-items: center;}
     .phone:focus{
      color:var(--color-btn-link);}
 
-     .envelope-icon,.icon-phone{
-        Height:12px;
-        Width:16px;
+     .envelope-icon{
+         Height: 12px;
+        Width: 16px;
         margin-right: 10px;
     align-items: center;
     color: var(--accent-color);
