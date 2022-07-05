@@ -165,7 +165,15 @@ align-items: center;}
         margin-right: 10px;
     align-items: center;
     color: var(--accent-color);
-  fill: currentColor;;}
+  fill: currentColor;}
+
+  .phone-icon{
+    Height: 12px;
+   Width: 16px;
+   margin-right: 10px;
+align-items: center;
+color: var(--accent-color);
+fill: currentColor;;}
     .envelope-icon:hover,
     envelope-icone:focus,
     .icon-phone:hover,
