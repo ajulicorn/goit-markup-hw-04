@@ -159,7 +159,7 @@ align-items: center;}
     .phone:focus{
      color:var(--color-btn-link);}
 
-     .envelope-icon{
+     .email-icon{
          Height: 12px;
         Width: 16px;
         margin-right: 10px;
